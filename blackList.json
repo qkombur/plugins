@@ -12,7 +12,7 @@
   "gulp-htmin": "duplicate of gulp-htmlmin",
   "gulp-filesize": "duplicate of gulp-size",
   "gulp-redust": "duplicate of gulp-dust",
-  "gulp-shell": "duplicate of gulp-exec",
+  "gulp-shell": "promotes anti-patterns, use gulp-exec or child_process",
   "gulp-streamline": "no documentation, duplicate of gulp-streamlinejs",
   "gulp-compile-js": "combines other plugins",
   "gulp-module-system": "does too much, use gulp-wrap-* modules",
@@ -162,7 +162,6 @@
   "gulp-svgo": "duplicate of gulp-svgmin",
   "gulp-swig-jst": "duplicate of gulp-swig-precompile",
   "gulp-sym": "duplicate of gulp-symlink",
-  "gulp-template-handlebars": "unpublished by author",
   "gulp-todos": "duplicate of gulp-todo",
   "gulp-token-replace": "duplicate of gulp-replace",
   "gulp-tslint-log": "duplicate of gulp-tslint",
@@ -258,7 +257,6 @@
   "gulp-lodash-template": "duplicate of gulp-template",
   "gulp-template-compile": "duplicate of gulp-template",
   "gulp-lodash-jst": "duplicate of gulp-template",
-  "gulp-tmpl": "duplicate of gulp-template",
   "gulp-6to5": "deprecated in favor of gulp-babel",
   "gulp-jest": "use the `jest` module directly",
   "gulp-karma": "use the `karma` module directly",
@@ -276,5 +274,6 @@
   "gulp-electron": "not a gulp plugin",
   "gulp-props2json": "duplicate of gulp-props",
   "gulp-properties": "not a gulp plugin",
-  "gulp-babel-transpiler": "duplicate of gulp-babel"
+  "gulp-babel-transpiler": "duplicate of gulp-babel",
+  "gulp-uglifyjs-wrapper": "duplicate of gulp-uglify"
 }
